@@ -120,7 +120,7 @@ class MyFile {
     public static void printPermissions(String path) {
         try {
             File file = new File(path);
-            if (!file.isFile() || !file.exists()) {
+            if (!file.exists()) {
                 throw new Exception("incorrect file or directory path");
             }
             filePermissionChecker(file.canRead(), "r");
