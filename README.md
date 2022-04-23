@@ -1,3 +1,5 @@
+# Simple java cli
+### **Java version should be upper than 14**
 ## MyFS 1.0 команды:
 #### **ls** `<path>`               *выводит список всех файлов и директорий для `path`*
 #### **ls_py** `<path>`            *выводит список файлов с расширением `.py` в `path`*
@@ -13,5 +15,5 @@
 #### **exit**                   *завершает работу программы*
 ## Запуск:
 #### через терминал в файле `src/myFS`:
-1) `javac MyFile.java`
-2) `java MyFile.java`
+1) `javac MyFS.java`
+2) `java MyFS.java`
